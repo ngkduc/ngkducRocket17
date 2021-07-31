@@ -169,3 +169,12 @@ VALUES				('COD1'		,'Đề thi Java'		, 		1		,	60		,	4		),
                     ('COD4'		,'Đề thi Ruby'		,		4		,	120		,	1		),
                     ('COD5'		,'Đề thi Postman'	,		5		,	60		,	1		),
                     ('COD6'		,'Đề thi C'			,		6		,	120		,	4		);
+                    
+                    
+INSERT INTO Exam_Question	(	Exam_ID		,Question_ID)
+VALUES						(	1			,	1		),
+							(	2			,	2		),
+                            (	3			,	3		),
+                            (	4			,	4		),
+                            (	5			,	5		),
+                            (	6			,	6		);
