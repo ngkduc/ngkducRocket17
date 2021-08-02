@@ -106,8 +106,8 @@ VALUES					('ngkduc@gmail.com'	,	'ngkduc'		,'Nguyễn Khương Đức'	,4				,		
                         ('ntson@gmail.com'	,	'ntson'			,'Nguyễn Thái Sơn'		,2				,		6			),
                         ('chngvu@gmail.com'	,	'chngvu'		,'Chu Nguyên Vũ'		,4				,		1			),
                         ('ndquynh@gmail.com',	'ndquynh'		,'Nguyễn Diễm Quỳnh'	,2				,		6			),
-                        ('ngdduy@gmail.com'	,	'ngdduy'		,'Nguyễn Đức Duy'		,5				,		2			),
-                        ('ntduong@gmail.com',	'ntduong'		,'Nguyễn Tuấn Dương'	,1 				,		5			);
+                        ('ngdduy@gmail.com'	,	'ngdduy'		,'DNguyễn Đức Duyo'		,5				,		2			),
+                        ('ntduong@gmail.com',	'ntduong'		,'Nguyễn Tuấn Dươnga'	,1 				,		5			);
 
 
 INSERT INTO `Group` 	(Group_Name		,Creator_ID	)
