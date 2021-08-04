@@ -117,14 +117,13 @@ VALUES					('404 not found',1 			),
                         ('Seller'		,4			);
 					
 INSERT INTO Group_Account(Group_ID		,Account_ID )
-VALUES					 (1				,1			),
-						 (1				,7			),
+VALUES					 (4				,1			),
+						 (4				,7			),
 						 (2				,2			),
                          (2				,9			),
                          (3				,5			),
                          (3				,6			),
                          (3				,8			),
-                         (4				,3			),
                          (4				,10			);
                          
 INSERT INTO Type_Question(Type_Name)
@@ -154,7 +153,7 @@ INSERT INTO Answer	(  Content		, Question_ID	, isCorrect	)
 VALUES 				('Trả lời 01'	,   1			,	0		),
 					('Trả lời 02'	,   5			,	1		),
                     ('Trả lời 03'	,   5			,	0		),
-                    ('Trả lời 04'	,   6			,	1		),
+                    ('Trả lời 04'	,   5			,	1		),
                     ('Trả lời 05'	,   2			,	1		),
                     ('Trả lời 06'	,   3			,	1		),
                     ('Trả lời 07'	,   4			,	0		),
@@ -177,4 +176,5 @@ VALUES						(	1			,	1		),
                             (	3			,	3		),
                             (	4			,	4		),
                             (	5			,	5		),
-                            (	6			,	6		);
+                            (	6			,	6		),
+                            (	5			,	6		);
