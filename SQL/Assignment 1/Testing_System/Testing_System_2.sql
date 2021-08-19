@@ -99,7 +99,7 @@ VALUES 					('Dev'),
                         
 INSERT INTO `Account`	(	email           ,	username		,fullname				,department_id  ,		position_id	)
 VALUES					('ngkduc@gmail.com'	,	'ngkduc'		,'Nguyễn Khương Đức'	,4				,		1			),
-						('btanh@gmail.com'	,	'btanh'			,'Bùi Thế Anh'			,5				,		2			),
+						('btanh@gmail.com'	,	'btanh'			,'Bùi Thế Anh'			,1				,		2			),
                         ('dthoang@gmail.com',	'dthoang'		,'Đinh Tuấn Hoàng'		,1				,		5			),
                         ('nvanh@gmail.com'	,	'nvanh'			,'Nguyễn Vân Anh'		,3				,		4			),
                         ('kvlong@gmail.com'	,	'kvlong'		,'Kiều Việt Long'		,2				,		6			),
@@ -122,7 +122,7 @@ VALUES					 (4				,1			),
 						 (2				,2			),
                          (2				,9			),
                          (3				,5			),
-                         (3				,6			),
+                         (3				,7			),
                          (3				,8			),
                          (4				,10			);
                          

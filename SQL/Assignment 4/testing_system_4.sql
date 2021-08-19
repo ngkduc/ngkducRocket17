@@ -75,12 +75,12 @@ GROUP BY	a.department_id;
 
 
 -- Question 12: Lấy thông tin chi tiết của câu hỏi bao gồm: thông tin cơ bản của question, loại câu hỏi, ai là người tạo ra câu hỏi, câu trả lời là gì, …
- SELECT			q.*,tq.type_name,cq.Category_name,GROUP_CONCAT(a.content)
- FROM			question q 
- JOIN			Type_question tq ON q.type_id = tq.type_id
- JOIN			Category_Question cq ON q.Category_ID	= cq.Category_ID
- JOIN			Answer a ON q.question_id = a.question_id
- GROUP BY		q.question_id;
+SELECT			q.*,tq.type_name,cq.Category_name,GROUP_CONCAT(a.content)
+FROM			question q 
+JOIN			Type_question tq ON q.type_id = tq.type_id
+JOIN			Category_Question cq ON q.Category_ID	= cq.Category_ID
+LEFT JOIN		Answer a ON q.question_id = a.question_id
+GROUP BY		q.question_id;
  
  
  -- Question 13: Lấy ra số lượng câu hỏi của mỗi loại tự luận hay trắc nghiệm
